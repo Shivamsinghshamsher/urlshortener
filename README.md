@@ -32,5 +32,6 @@ Make sure you have **Python 3** installed on your system.
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/url-shortener-app.git
-cd url-shortener-app
+git clone https://github.com/Shivamsinghshamsher/urlshortener.git
+cd urlshortener
+
