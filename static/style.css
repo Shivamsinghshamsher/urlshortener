@@ -3,7 +3,7 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -15,11 +15,76 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+}
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  margin-right: 3rem;
+
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.navbar ul li a:hover {
+  color: #ddd;
+}
+/* Footer */
+.footer {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  margin: 5px 0;
+}
+.footer a {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.footer a:hover {
+  color: #ddd;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+
+
+
 input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
@@ -71,3 +136,5 @@ button:hover {
 .result button:hover {
     background-color: #45a049;
 }
+
+
