@@ -15,7 +15,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 30rem;
+    width: 30vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -28,6 +28,7 @@ body {
   padding: 10px 20px;
   background-color: #4CAF50;
   color: white;
+  width: 100vw;
 }
 .navbar .logo {
   font-size: 1.5rem;
@@ -137,4 +138,25 @@ button:hover {
     background-color: #45a049;
 }
 
+
+@media (max-width: 812px) {
+  .navbar ul {
+    flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      margin-right: 1rem;
+  }
+  .logo{
+    margin-left: 1rem;
+  }
+  .navbar{
+    width: 100vw;
+    padding: 0;
+  }
+  .container{
+    width: 90vw;
+    padding: 0px;
+  }
+  
+}
 
